@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*h1 style details */
+h1 {
+    text-align: left;
+}
+/*text on Home page */
+.home {	
+	margin: 50px 245 10px 245;
+	text-align: left;
+	width: 900px;
+	height: 300px;
+	font-family: "Comic Sans";
+	font-size: 18px;
+    	font-color: color: #FFFFFF;;
+	text-align:left;
+}
+/* img on Home page */
+.home img {
+	0 0 80px 80px
+	display: block;
+	padding: 5px;
+	background: #42517f;
+	box-shadow:1px 1px 2px #000;
+	margin: 10px;
+}
+/* table on Home page */	
+.home table{
+	text-align: left;
+	width: 500px;
+	margin: 50px;
+	font-family: "Comic Sans";
+	font-size: 15px;
+    	font-color: color: #FFFFFF;;
+	text-align:left;
+}
+/* navigation tabs */	
+ul#menu {
+	width: 940px; list-style: none; overflow: hidden; margin: -150px 220 10px 220;
+}
+ul#menu li {
+	width: 195px; height: 33px; float: left; padding: 13px 0 0 0;
+	background: #00394d;
+	border:1px solid #FFF;
+	box-shadow:1px 1px 2px #000;
+	font-weight: bold; text-align: center;
+}
+ul#menu li:nth-child(1) {
+	margin: 100 500px 10 0;
+}
+ul#menu li:nth-child(2) {
+	margin: 0 500px 10 0;
+}
+ul#menu li a {
+	color: #cccccc; text-decoration: none;
+}
+ul#menu li a:hover {
+	color: #FFF;
+	background: #007099;
+	border:1px solid #FFF;
+        box-shadow:1px 1px 2px #000;
+	font-weight: bold; text-align: center;
+}
+/* text on Portfolio page */
+.description {
+	margin: 50px 245 10px 245;
+	text-align: left;
+	width: 900px;
+	height: 300px;
+	font-family: "Comic Sans";
+	font-size: 18px;
+    	font-color: color: #FFFFFF;;
+	text-align:left;
+}
+/* images on Portfolio page */
+.description img {
+	display: block;
+	padding: 5px;
+	background: #006666;
+	border:1px solid #006666;
+	box-shadow:1px 1px 2px #000;
+	margin: 10px;
+}
+/* image on Portfolio on hover */
+.description img:hover {
+	background: #42517f;
+	border:1px solid #000;
+	
+/* paragraph style */
+p {
+    	font-family: "Comic Sans";
+	font-size: 18px;
+    	font-color: color: #FFFFFF;
+	text-align:left;
+}
+</style>
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+</head>
+<body>
+</body>
+</html>
